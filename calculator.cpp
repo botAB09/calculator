@@ -3,10 +3,10 @@
 class calculator
 {
 public:
-    int add(int operator_1, int operator_2);
-    int subtract(int operator_1, int operator_2);
-    int multiply(int operator_1, int operator_2);
-    float divide(int operator_1, int operator_2);
+    int add(int operand_1, int operand_2);
+    int subtract(int operand_1, int operand_2);
+    int multiply(int operand_1, int operand_2);
+    float divide(int operand_1, int operand_2);
 };
 
 int calculator ::add(int op_1, int op_2)
@@ -44,9 +44,9 @@ int main()
     {
         int op_1, op_2, choice, result;
 
-        std::cout << "Enter first operator\n";
+        std::cout << "Enter first operand\n";
         std::cin >> op_1;
-        std::cout << "Enter second operator\n";
+        std::cout << "Enter second operand\n";
         std::cin >> op_2;
 
         std::cout << "Enter the corresponding number to perform that function\n"
